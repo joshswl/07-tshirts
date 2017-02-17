@@ -10,10 +10,29 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 1rem - 1rem);
+    flex-grow: 1;
+    margin: 1rem;
+    border: 2px solid $c-primary;
+  }
 }
 
-.grid__item {
-  flex-basis: calc(100% / 3 - 1rem - 1rem);
-  flex-grow: 1;
-  margin: 1rem;
+.tshirt-img {
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+.tshirt-text {
+  width: 15rem;
+  text-align: center;
+
+  &__title {
+
+  }
+
+  &__description {
+
+  }
 }
