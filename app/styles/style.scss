@@ -37,3 +37,28 @@
 
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  &__refresh {
+    padding: 1rem;
+  }
+
+  &__like {
+    padding: 1rem;
+  }
+
+  &__color {
+    padding: 1rem;
+  }
+
+  &__size {
+
+  }
+
+  &__cart {
+
+  }
+}
