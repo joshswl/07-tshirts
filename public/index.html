@@ -1,45 +1,302 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>07-tshirts</title>
-  <link rel="stylesheet" href="/app.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>07-tshirt</title>
+    <link rel="stylesheet" href="/app.css">
+  </head>
+
+<!-- Start to copy here -->
 <body>
-  <main class="section">
+  <div class="section">
     <div class="container">
+
       <div class="grid">
         <div class="grid__item">
-          <div class="tshirt-img">
-            <img src="images/tshirt.jpg" alt="" class="tshirt-img">
+
+          <div class="shop-card">
+            <img src="https://files.slack.com/files-pri/T0MD5BPU5-F43TDBU2W/water-drop-t-shirts-men-s-t-shirt.jpg" alt="" class="shop-card__pic">
+
+            <div class="shop-card__info">
+              <h2 class="shop-card__title">Philosoraptor</h2>
+              <p class="shop-card__description">Made of fresh All American Cotton and Dino Bits</p>
+            </div>
+
+            <div class="shop-card__options">
+              <div class="button-bar">
+                <button class="button-bar__button">
+                  <span class="fa fa-refresh"></span>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-heart"></span>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="fa fa-square"></span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button dropdown__button--pink"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--green"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--blue"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--yellow"><span class="fa fa-square"></span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="size">XL</span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button"><span class="size">S</span></li>
+                    <li class="dropdown__button"><span class="size">M</span></li>
+                    <li class="dropdown__button"><span class="size">L</span></li>
+                    <li class="dropdown__button"><span class="size">XL</span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-shopping-cart"></span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="tshirt-text">
-            <h2 class="tshirt-text__title">T-Shirts</h2>
-            <p class="tshirt-text__description">Made of fresh All-American cotton and some other stuff.</p>
+
+        </div>
+
+        <div class="grid__item">
+
+          <div class="shop-card">
+            <img src="https://files.slack.com/files-pri/T0MD5BPU5-F43TDBU2W/water-drop-t-shirts-men-s-t-shirt.jpg" alt="" class="shop-card__pic">
+
+            <div class="shop-card__info">
+              <h2 class="shop-card__title">Philosoraptor</h2>
+              <p class="shop-card__description">Made of fresh All American Cotton and Dino Bits</p>
+            </div>
+
+            <div class="shop-card__options">
+              <div class="button-bar">
+                <button class="button-bar__button">
+                  <span class="fa fa-refresh"></span>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-heart"></span>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="fa fa-square"></span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button dropdown__button--pink"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--green"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--blue"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--yellow"><span class="fa fa-square"></span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="size">XL</span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button"><span class="size">S</span></li>
+                    <li class="dropdown__button"><span class="size">M</span></li>
+                    <li class="dropdown__button"><span class="size">L</span></li>
+                    <li class="dropdown__button"><span class="size">XL</span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-shopping-cart"></span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="navbar">
-            <div class="navbar__refresh">
-              <i class="fa fa-refresh" aria-hidden="true"></i>
+
+        </div>
+
+        <div class="grid__item">
+
+          <div class="shop-card">
+            <img src="https://files.slack.com/files-pri/T0MD5BPU5-F43TDBU2W/water-drop-t-shirts-men-s-t-shirt.jpg" alt="" class="shop-card__pic">
+
+            <div class="shop-card__info">
+              <h2 class="shop-card__title">Philosoraptor</h2>
+              <p class="shop-card__description">Made of fresh All American Cotton and Dino Bits</p>
             </div>
-            <div class="navbar__like">
-              <i class="fa fa-heart-o" aria-hidden="true"></i>
-            </div>
-            <div class="navbar__color">
-              <i class="fa fa-square" aria-hidden="true"></i>
-            </div>
-            <div class="navbar__size">
-              <p class="navbar__size__text">XL</p>
-            </div>
-            <div class="navbar__cart">
-              <i class="fa fa-cart-plus" aria-hidden="true"></i>
+
+            <div class="shop-card__options">
+              <div class="button-bar">
+                <button class="button-bar__button">
+                  <span class="fa fa-refresh"></span>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-heart"></span>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="fa fa-square"></span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button dropdown__button--pink"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--green"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--blue"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--yellow"><span class="fa fa-square"></span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="size">XL</span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button"><span class="size">S</span></li>
+                    <li class="dropdown__button"><span class="size">M</span></li>
+                    <li class="dropdown__button"><span class="size">L</span></li>
+                    <li class="dropdown__button"><span class="size">XL</span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-shopping-cart"></span>
+                </button>
+              </div>
             </div>
           </div>
+
+        </div>
+
+        <div class="grid__item">
+
+          <div class="shop-card">
+            <img src="https://files.slack.com/files-pri/T0MD5BPU5-F43TDBU2W/water-drop-t-shirts-men-s-t-shirt.jpg" alt="" class="shop-card__pic">
+
+            <div class="shop-card__info">
+              <h2 class="shop-card__title">Philosoraptor</h2>
+              <p class="shop-card__description">Made of fresh All American Cotton and Dino Bits</p>
+            </div>
+
+            <div class="shop-card__options">
+              <div class="button-bar">
+                <button class="button-bar__button">
+                  <span class="fa fa-refresh"></span>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-heart"></span>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="fa fa-square"></span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button dropdown__button--pink"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--green"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--blue"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--yellow"><span class="fa fa-square"></span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="size">XL</span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button"><span class="size">S</span></li>
+                    <li class="dropdown__button"><span class="size">M</span></li>
+                    <li class="dropdown__button"><span class="size">L</span></li>
+                    <li class="dropdown__button"><span class="size">XL</span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-shopping-cart"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="grid__item">
+
+          <div class="shop-card">
+            <img src="https://files.slack.com/files-pri/T0MD5BPU5-F43TDBU2W/water-drop-t-shirts-men-s-t-shirt.jpg" alt="" class="shop-card__pic">
+
+            <div class="shop-card__info">
+              <h2 class="shop-card__title">Philosoraptor</h2>
+              <p class="shop-card__description">Made of fresh All American Cotton and Dino Bits</p>
+            </div>
+
+            <div class="shop-card__options">
+              <div class="button-bar">
+                <button class="button-bar__button">
+                  <span class="fa fa-refresh"></span>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-heart"></span>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="fa fa-square"></span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button dropdown__button--pink"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--green"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--blue"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--yellow"><span class="fa fa-square"></span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="size">XL</span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button"><span class="size">S</span></li>
+                    <li class="dropdown__button"><span class="size">M</span></li>
+                    <li class="dropdown__button"><span class="size">L</span></li>
+                    <li class="dropdown__button"><span class="size">XL</span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-shopping-cart"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="grid__item">
+
+          <div class="shop-card">
+            <img src="https://files.slack.com/files-pri/T0MD5BPU5-F43TDBU2W/water-drop-t-shirts-men-s-t-shirt.jpg" alt="" class="shop-card__pic">
+
+            <div class="shop-card__info">
+              <h2 class="shop-card__title">Philosoraptor</h2>
+              <p class="shop-card__description">Made of fresh All American Cotton and Dino Bits</p>
+            </div>
+
+            <div class="shop-card__options">
+              <div class="button-bar">
+                <button class="button-bar__button">
+                  <span class="fa fa-refresh"></span>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-heart"></span>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="fa fa-square"></span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button dropdown__button--pink"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--green"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--blue"><span class="fa fa-square"></span></li>
+                    <li class="dropdown__button dropdown__button--yellow"><span class="fa fa-square"></span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button dropdown">
+                  <span class="size">XL</span>
+
+                  <ul class="dropdown__list">
+                    <li class="dropdown__button"><span class="size">S</span></li>
+                    <li class="dropdown__button"><span class="size">M</span></li>
+                    <li class="dropdown__button"><span class="size">L</span></li>
+                    <li class="dropdown__button"><span class="size">XL</span></li>
+                  </ul>
+                </button>
+                <button class="button-bar__button">
+                  <span class="fa fa-shopping-cart"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
+
     </div>
-  </main>
-  <script src="/app.js" charset="utf-8"></script>
-  <script src="https://use.fontawesome.com/f76523254e.js"></script>
+  </div>
 </body>
-</html>
