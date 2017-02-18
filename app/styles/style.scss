@@ -19,46 +19,25 @@
   }
 }
 
-.tshirt-img {
+.shop-card {
   width: 17rem;
-  color: #3473b5;
-}
 
-.tshirt-text {
-  width: 17rem;
-  text-align: center;
-  color: #3473b5;
-
-  &__title {
+  &__pic {
 
   }
 
-  &__description {
-
+  &__info {
+    width: 10rem;
+    text-align: center;
+    color: #3473b5;
   }
 }
 
-.navbar {
+.button-bar {
   display: flex;
   justify-content: space-between;
 
-  &__refresh {
+  &__button {
     padding: 1rem;
-  }
-
-  &__like {
-
-  }
-
-  &__color {
-
-  }
-
-  &__size {
-
-  }
-
-  &__cart {
-
   }
 }
