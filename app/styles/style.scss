@@ -84,9 +84,9 @@
   }
 
   &__button {
-    padding: 1rem;
+    padding: 0.5rem;
 
-    &:hover .dropdown__button {
+    &:hover {
       font-size: 20px;
     }
 
