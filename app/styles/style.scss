@@ -70,6 +70,7 @@
     margin: 0;
     bottom: 100%;
     left: 50%;
+    transform: translate(-50%);
   }
 
   &:hover .dropdown__list {
