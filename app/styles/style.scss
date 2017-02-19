@@ -38,13 +38,14 @@
   display: flex;
   flex-grow: 1;
   border-top: 3.5px solid #3473b5;
+  bottom: 100%;
 
   &__button {
     padding: 1rem;
-    background: none;
     flex-grow: 1;
     border: none;
     color: #3473b5;
+    background: white;
 
     &:hover {
       color: white;
@@ -58,6 +59,7 @@
 }
 
 .dropdown {
+
   &__list {
     display: none;
   }
@@ -66,11 +68,17 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    color: #3473b5;
+    border-left: 3.5px solid #3473b5;
+    border-right: 3.5px solid #3473b5;
+
+    > * + * {
+      border-top: 3.5px solid #3473b5;
+    }
   }
 
   &__button {
-
-
+    padding: 1rem;
 
     &--pink {
       color: #e577aa;
@@ -87,12 +95,5 @@
     &--yellow {
       color: #e5b178;
     }
-  }
-}
-
-.size {
-  > * + * {
-    color: #3473b5;
-    border-top: 3.5px solid #3473b5;
   }
 }
