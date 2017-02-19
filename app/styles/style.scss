@@ -41,11 +41,12 @@
   bottom: 100%;
 
   &__button {
-    padding: 1rem;
+    padding: 0.5rem;
     flex-grow: 1;
     border: none;
     color: #3473b5;
-    background: white;
+    background: none;
+    font-size: 15px;
 
     &:hover {
       color: white;
@@ -59,18 +60,22 @@
 }
 
 .dropdown {
+  position: relative;
 
   &__list {
     display: none;
+    color: #3473b5;
+    background: white;
+    border: 3.5px solid #3473b5;
+    margin: 0;
+    bottom: 100%;
+    left: 50%;
   }
 
-  &:hover .dropdown__list{
+  &:hover .dropdown__list {
     position: absolute;
     display: flex;
     flex-direction: column;
-    color: #3473b5;
-    border-left: 3.5px solid #3473b5;
-    border-right: 3.5px solid #3473b5;
 
     > * + * {
       border-top: 3.5px solid #3473b5;
@@ -79,6 +84,10 @@
 
   &__button {
     padding: 1rem;
+
+    &:hover .dropdown__button {
+      font-size: 20px;
+    }
 
     &--pink {
       color: #e577aa;
