@@ -107,13 +107,3 @@
     }
   }
 }
-
-@media (min-width: 460px) and (max-width: 760px) {
-  .shop-card {
-    flex-direction: row;
-
-    &__pic {
-      max-width: 25%;
-    }
-  }
-}

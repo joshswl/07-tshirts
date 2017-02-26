@@ -1,0 +1,49 @@
+@media (min-width: 460px) and (max-width: 600px) {
+  .shop-card {
+    flex-direction: row;
+
+    &__pic {
+      max-width: 30%;
+    }
+  }
+
+  .button-bar {
+    flex-direction: column;
+    border-top: 0;
+    border-left: 3.5px solid #3473b5;
+
+    &__button {
+
+    }
+
+    > * + * {
+      border-left: 0;
+      border-top: 3.5px solid #3473b5;
+    }
+  }
+
+  .dropdown {
+
+    &__list {
+      bottom: -15%;
+      left: -190%;
+    }
+
+    &:hover .dropdown__list {
+      flex-direction: row;
+
+      > * + * {
+        border-left: 3.5px solid #3473b5;
+        border-top: none;
+      }
+    }
+  }
+
+  .grid {
+    flex-direction: column;
+
+    &__item {
+
+    }
+  }
+}
